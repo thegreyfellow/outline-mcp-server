@@ -13,8 +13,8 @@
 
 2. **GitHub Actions workflow:**
    - The workflow at `.github/workflows/publish.yml` will automatically build and push the Docker image to GHCR with tags:
-     - `ghcr.io/<owner>/outline-mcp-server:v1.2.3`
-     - `ghcr.io/<owner>/outline-mcp-server:latest`
+     - `ghcr.io/thegreyfellow/outline-mcp-server:v1.2.3`
+     - `ghcr.io/thegreyfellow/outline-mcp-server:latest`
 
 3. **Pulling the image:**
    ```sh
