@@ -7,7 +7,7 @@ COPY . .
 RUN npm run build
 
 FROM node:20-alpine
-LABEL org.opencontainers.image.source="https://github.com/<owner>/outline-mcp-server" \
+LABEL org.opencontainers.image.source="https://github.com/mmmeff/outline-mcp-server" \
   org.opencontainers.image.licenses="MIT" \
   org.opencontainers.image.description="Outline MCP Server: ships as Docker image and npm package"
 WORKDIR /app
